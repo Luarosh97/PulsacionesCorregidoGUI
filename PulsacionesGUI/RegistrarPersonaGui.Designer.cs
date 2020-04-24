@@ -45,6 +45,7 @@
             this.EditarBtn = new System.Windows.Forms.Button();
             this.limpiarBtn = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -110,7 +111,7 @@
             // 
             this.BuscarBtn.Image = ((System.Drawing.Image)(resources.GetObject("BuscarBtn.Image")));
             this.BuscarBtn.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.BuscarBtn.Location = new System.Drawing.Point(148, 284);
+            this.BuscarBtn.Location = new System.Drawing.Point(144, 284);
             this.BuscarBtn.Name = "BuscarBtn";
             this.BuscarBtn.Size = new System.Drawing.Size(75, 53);
             this.BuscarBtn.TabIndex = 6;
@@ -123,7 +124,7 @@
             // 
             this.EliminarBtn.Image = ((System.Drawing.Image)(resources.GetObject("EliminarBtn.Image")));
             this.EliminarBtn.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.EliminarBtn.Location = new System.Drawing.Point(252, 284);
+            this.EliminarBtn.Location = new System.Drawing.Point(243, 284);
             this.EliminarBtn.Name = "EliminarBtn";
             this.EliminarBtn.Size = new System.Drawing.Size(75, 53);
             this.EliminarBtn.TabIndex = 7;
@@ -176,7 +177,7 @@
             // 
             this.EditarBtn.Image = ((System.Drawing.Image)(resources.GetObject("EditarBtn.Image")));
             this.EditarBtn.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.EditarBtn.Location = new System.Drawing.Point(353, 284);
+            this.EditarBtn.Location = new System.Drawing.Point(343, 284);
             this.EditarBtn.Name = "EditarBtn";
             this.EditarBtn.Size = new System.Drawing.Size(75, 53);
             this.EditarBtn.TabIndex = 13;
@@ -189,7 +190,7 @@
             // 
             this.limpiarBtn.Image = ((System.Drawing.Image)(resources.GetObject("limpiarBtn.Image")));
             this.limpiarBtn.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.limpiarBtn.Location = new System.Drawing.Point(463, 284);
+            this.limpiarBtn.Location = new System.Drawing.Point(435, 284);
             this.limpiarBtn.Name = "limpiarBtn";
             this.limpiarBtn.Size = new System.Drawing.Size(75, 53);
             this.limpiarBtn.TabIndex = 14;
@@ -201,17 +202,26 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(297, 46);
+            this.pictureBox1.Location = new System.Drawing.Point(295, 46);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(198, 174);
+            this.pictureBox1.Size = new System.Drawing.Size(200, 174);
             this.pictureBox1.TabIndex = 15;
             this.pictureBox1.TabStop = false;
             // 
-            // RegistrarPersonaFrm
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.Highlight;
+            this.panel1.Location = new System.Drawing.Point(528, 1);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(145, 370);
+            this.panel1.TabIndex = 16;
+            // 
+            // RegistrarPersonaGui
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(560, 366);
+            this.ClientSize = new System.Drawing.Size(671, 370);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.limpiarBtn);
             this.Controls.Add(this.EditarBtn);
@@ -228,7 +238,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "RegistrarPersonaFrm";
+            this.Name = "RegistrarPersonaGui";
             this.Text = "Registro De Personas";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -254,5 +264,6 @@
         private System.Windows.Forms.Button EditarBtn;
         private System.Windows.Forms.Button limpiarBtn;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel1;
     }
 }

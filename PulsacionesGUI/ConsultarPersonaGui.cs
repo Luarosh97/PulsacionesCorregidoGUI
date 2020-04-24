@@ -79,5 +79,10 @@ namespace PulsacionesGUI
             TotalHombrestxt.Text = "";
             TotalMujerestxt.Text = "";
         }
+
+        private void CancelarBtn_Click(object sender, EventArgs e)
+        {
+            Dispose();
+        }
     }
 }
